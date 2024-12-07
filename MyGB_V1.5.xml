@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='gb2312'?>
-<std:node name="MyGB_3D_1_4.xml" type="drafting"
-    xmlns:std="http://www.dsweb.com/std">
+<std:node name="MyGB_3D_1.5.xml" type="drafting"
+    xmlns:std="https://www.3ds.com/">
     <std:enumdef name="AnchorPoint">
         <std:strval name="AnchorPoint" >Top left</std:strval>
         <std:strval name="AnchorPoint" >Middle left</std:strval>
@@ -3440,7 +3440,7 @@
             </std:node>
         </std:node>
         <std:node name="BomStyle">
-            <std:node name="GB 按顶层装配BOM">
+            <std:node name="GB 鎸夐《灞傝閰岯OM">
                 <std:node name="Type">
                     <std:enumval name="BomType">TopLevel</std:enumval>
                 </std:node>
@@ -3459,43 +3459,43 @@
                 <std:node name="Properties">
                     <std:typeval name="BomProperties">
                         <std:strval name="Name" >ItemNumber</std:strval>
-                        <std:strval name="Title" >序号</std:strval>
+                        <std:strval name="Title" >搴忓彿</std:strval>
                         <std:floatval name="Width" >10</std:floatval>
                         <std:intval name="Index" >1</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >物料编码</std:strval>
-                        <std:strval name="Title" >物料编码</std:strval>
+                        <std:strval name="Name" >鐗╂枡缂栫爜</std:strval>
+                        <std:strval name="Title" >鐗╂枡缂栫爜</std:strval>
                         <std:floatval name="Width" >24</std:floatval>
                         <std:intval name="Index" >2</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >物料名称</std:strval>
-                        <std:strval name="Title" >物料名称</std:strval>
+                        <std:strval name="Name" >鐗╂枡鍚嶇О</std:strval>
+                        <std:strval name="Title" >鐗╂枡鍚嶇О</std:strval>
                         <std:floatval name="Width" >40</std:floatval>
                         <std:intval name="Index" >3</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
                         <std:strval name="Name" >Quantity</std:strval>
-                        <std:strval name="Title" >数量</std:strval>
+                        <std:strval name="Title" >鏁伴噺</std:strval>
                         <std:floatval name="Width" >10</std:floatval>
                         <std:intval name="Index" >4</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >材质</std:strval>
-                        <std:strval name="Title" >材质</std:strval>
+                        <std:strval name="Name" >鏉愯川</std:strval>
+                        <std:strval name="Title" >鏉愯川</std:strval>
                         <std:floatval name="Width" >24</std:floatval>
                         <std:intval name="Index" >5</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >备注</std:strval>
-                        <std:strval name="Title" >备注</std:strval>
+                        <std:strval name="Name" >澶囨敞</std:strval>
+                        <std:strval name="Title" >澶囨敞</std:strval>
                         <std:floatval name="Width" >24</std:floatval>
                         <std:intval name="Index" >6</std:intval>
                     </std:typeval>
                 </std:node>
             </std:node>
-            <std:node name="GB 按最底层零件BOM">
+            <std:node name="GB 鎸夋渶搴曞眰闆朵欢BOM">
                 <std:node name="Type">
                     <std:enumval name="BomType">Summarized</std:enumval>
                 </std:node>
@@ -3514,37 +3514,37 @@
                 <std:node name="Properties">
                     <std:typeval name="BomProperties">
                         <std:strval name="Name" >ItemNumber</std:strval>
-                        <std:strval name="Title" >序号</std:strval>
+                        <std:strval name="Title" >搴忓彿</std:strval>
                         <std:floatval name="Width" >10</std:floatval>
                         <std:intval name="Index" >1</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >物料编码</std:strval>
-                        <std:strval name="Title" >物料编码</std:strval>
+                        <std:strval name="Name" >鐗╂枡缂栫爜</std:strval>
+                        <std:strval name="Title" >鐗╂枡缂栫爜</std:strval>
                         <std:floatval name="Width" >24</std:floatval>
                         <std:intval name="Index" >2</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >物料名称</std:strval>
-                        <std:strval name="Title" >物料名称</std:strval>
+                        <std:strval name="Name" >鐗╂枡鍚嶇О</std:strval>
+                        <std:strval name="Title" >鐗╂枡鍚嶇О</std:strval>
                         <std:floatval name="Width" >40</std:floatval>
                         <std:intval name="Index" >3</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
                         <std:strval name="Name" >Quantity</std:strval>
-                        <std:strval name="Title" >数量</std:strval>
+                        <std:strval name="Title" >鏁伴噺</std:strval>
                         <std:floatval name="Width" >10</std:floatval>
                         <std:intval name="Index" >4</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >材质</std:strval>
-                        <std:strval name="Title" >材质</std:strval>
+                        <std:strval name="Name" >鏉愯川</std:strval>
+                        <std:strval name="Title" >鏉愯川</std:strval>
                         <std:floatval name="Width" >24</std:floatval>
                         <std:intval name="Index" >5</std:intval>
                     </std:typeval>
                     <std:typeval name="BomProperties">
-                        <std:strval name="Name" >备注</std:strval>
-                        <std:strval name="Title" >备注</std:strval>
+                        <std:strval name="Name" >澶囨敞</std:strval>
+                        <std:strval name="Title" >澶囨敞</std:strval>
                         <std:floatval name="Width" >24</std:floatval>
                         <std:intval name="Index" >6</std:intval>
                     </std:typeval>
